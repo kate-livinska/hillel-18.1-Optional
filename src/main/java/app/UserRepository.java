@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Optional;
 
 public class UserRepository {
-    private List<User> usersList = new ArrayList<>();
+    final private List<User> usersList;
 
     public UserRepository(List<User> usersList) {
         this.usersList = usersList;
